@@ -15,10 +15,10 @@ serverPort = 80
 clientSocket = socket(AF_INET, SOCK_STREAM)
 clientSocket.connect((serverName,serverPort))
 
-apiKey = args.k # 'RO9LWIO6GFVTN09P'
-idChannel = args.i # '285010'
-numField = args.f # 0 default
-numResults = args.r # 0 default
+apiKey = args.k # 'RUOPEE8SJH9FPL4W'
+idChannel = args.i # '289885'
+numField = args.f
+numResults = args.r
 
 data= ThingSpeakPy.recv(clientSocket, idChannel, apiKey, numField, numResults)
 

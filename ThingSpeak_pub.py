@@ -14,7 +14,7 @@ serverPort = 80
 clientSocket = socket(AF_INET, SOCK_STREAM)
 clientSocket.connect((serverName,serverPort))
 
-channelKey = args.k # 'DW6DWOL5B2XN6666'
+channelKey = args.k # 'XFIAM10CT78X2NRF'
 dados = args.data
 
 result = ThingSpeakPy.send(clientSocket, channelKey, dados)

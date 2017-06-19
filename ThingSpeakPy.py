@@ -2,7 +2,7 @@
 import json
 
 def send(socket, channelKey, values):
-    # Example - GET /update?api_key=DW6DWOL5B2XN6666&field1=15&field2=2 HTTP/1.1
+    # Example - GET /update?api_key=XFIAM10CT78X2NRF&field1=15&field2=2 HTTP/1.1
     request = [ 'field' + str(index+1) +'='+ str(item) for index,item in enumerate(values)]
     fieldValues = '&'.join(request)
     
@@ -17,10 +17,10 @@ def send(socket, channelKey, values):
 def recv(socket, idChannel, apiKey, numField, numResults):
     '''
     Examples    
-    GET /channels/285010/feeds.json?api_key=RO9LWIO6GFVTN09P HTTP/1.1
-    GET /channels/285010/feeds.json?api_key=RO9LWIO6GFVTN09P&results=2 HTTP/1.1
-    GET /channels/285010/fields/1.json?api_key=RO9LWIO6GFVTN09P HTTP/1.1
-    GET /channels/285010/fields/1.json?api_key=RO9LWIO6GFVTN09P&results=2 HTTP/1.1
+    GET /channels/289885/feeds.json?api_key=RUOPEE8SJH9FPL4W HTTP/1.1
+    GET /channels/289885/feeds.json?api_key=RUOPEE8SJH9FPL4W&results=2 HTTP/1.1
+    GET /channels/289885/fields/1.json?api_key=RUOPEE8SJH9FPL4W HTTP/1.1
+    GET /channels/289885/fields/1.json?api_key=RUOPEE8SJH9FPL4W&results=2 HTTP/1.1
     '''
     if numField == 0:  
         if numResults == 0:
