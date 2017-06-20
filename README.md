@@ -32,7 +32,7 @@ For get channel feed/field, run the following script, some parameters are requir
 ```
 For field equals to 0, will return all the fields. For results equals to 0, will return all data registered in the specific field.
 
-The channel used in this examples that corresponding to __XFIAM10CT78X2NRF__ key, __RUOPEE8SJH9FPL4W__ read key and __289885__ id channel is [This Channel](https://thingspeak.com/channels/289885). 
+The channel used in these examples that corresponding to __XFIAM10CT78X2NRF__ key, __RUOPEE8SJH9FPL4W__ read key and __289885__ id channel is [This Channel](https://thingspeak.com/channels/289885). 
 
 For send data to your own channel, change the parameters.
 ## Author
